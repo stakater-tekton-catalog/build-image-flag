@@ -22,7 +22,7 @@ spec:
       description: Flag for determining whether image should be built or not
   steps:
     - name: generate-build-flag
-      image: ghcr.io/stakater/pipeline-toolbox:v0.0.37
+      image: ghcr.io/stakater/pipeline-toolbox:v0.0.42
       command: [ "/bin/bash" ]
       workingDir: $(workspaces.source.path)
       args:
